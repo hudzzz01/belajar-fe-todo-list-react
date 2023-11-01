@@ -8,12 +8,12 @@ export default function Todo(promp){
                     return(
 
                         <div className="Todo" key={e.key} ><h1>{e.value}</h1>
-                        <button onClick={
+                        <button className="TodoButton" onClick={
                             ()=>{
-                               console.log(e.value)
+                               promp.handleSetEdit(e.key,e.value);
                             }
                         }>edit</button>
-                        <button onClick={
+                        <button className="TodoButton" onClick={
                             ()=>{
                                 promp.handleDeleteTodo(e.key);
                             }

@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
 }
 
 a {
@@ -24,6 +25,8 @@ a:hover {
 }
 
 body {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
   margin: 0;
   display: flex;
   place-items: center;

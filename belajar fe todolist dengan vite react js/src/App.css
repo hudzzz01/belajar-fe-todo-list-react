@@ -7,10 +7,10 @@
 
 .Todo{
   display: flex;
-  background-color: #F7EFE5;
   justify-content: space-around;
   margin: 10px;
   border-radius: 5px;
+  background-color: #e0a855;
 }
 .Todo h1{
   display: flex;
@@ -18,7 +18,7 @@
   width: 400px;
   justify-content: center;
 }
-.Todo button{
+.TodoButton{
   display: flexbox;
   align-self:center;
 }
@@ -52,6 +52,18 @@
 .InputTodo:focus{
   background-color: #FFFBF5;
   border-color: #7743DB;
+}
+
+.ModalEdit{
+  display: flexbox;
+  width: 800px;
+  height:200px;
+  align-items: center;
+  background-color: #7743DB;
+  position: fixed;
+  margin-top: -200px;
+  margin-left: -80px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .ButtonAdd{
